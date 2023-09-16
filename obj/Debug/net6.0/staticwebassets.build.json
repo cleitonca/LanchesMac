@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3BfRLz6z7gdiL5UgQjI16LuM3EtuP1rdc0oZWkTQYU0=",
+  "Hash": "wdCgeXb5QbcwGAJMVn4GrYsMloKe4TZvshmgZMRdipw=",
   "Source": "LanchesMac",
   "BasePath": "_content/LanchesMac",
   "Mode": "Default",
@@ -170,6 +170,40 @@
       "OriginalItemSpec": "wwwroot\\images\\delete.png"
     },
     {
+      "Identity": "D:\\projetos\\LanchesMac\\wwwroot\\images\\Envelope-icon24.png",
+      "SourceId": "LanchesMac",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projetos\\LanchesMac\\wwwroot\\",
+      "BasePath": "_content/LanchesMac",
+      "RelativePath": "images/Envelope-icon24.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Envelope-icon24.png"
+    },
+    {
+      "Identity": "D:\\projetos\\LanchesMac\\wwwroot\\images\\faleconosco1.jpg",
+      "SourceId": "LanchesMac",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projetos\\LanchesMac\\wwwroot\\",
+      "BasePath": "_content/LanchesMac",
+      "RelativePath": "images/faleconosco1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\faleconosco1.jpg"
+    },
+    {
       "Identity": "D:\\projetos\\LanchesMac\\wwwroot\\images\\Full-Cart-icon.png",
       "SourceId": "LanchesMac",
       "SourceType": "Discovered",
@@ -185,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Full-Cart-icon.png"
+    },
+    {
+      "Identity": "D:\\projetos\\LanchesMac\\wwwroot\\images\\phone-app-icon.png",
+      "SourceId": "LanchesMac",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projetos\\LanchesMac\\wwwroot\\",
+      "BasePath": "_content/LanchesMac",
+      "RelativePath": "images/phone-app-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\phone-app-icon.png"
     },
     {
       "Identity": "D:\\projetos\\LanchesMac\\wwwroot\\images\\remove.ico",
