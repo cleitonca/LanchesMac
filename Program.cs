@@ -38,15 +38,20 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "teste",
-    pattern: "testeme",
-    defaults: new { controller = "teste", Action = "index"});
+//app.MapControllerRoute(
+//    name: "teste",
+//    pattern: "testeme",
+//    defaults: new { controller = "teste", Action = "index"});
+
+//app.MapControllerRoute(
+//    name: "admin",
+//    pattern: "admin /{ Action = Index}/{ id?}",
+//    defaults: new {controller = "admin"});
 
 app.MapControllerRoute(
-    name: "admin",
-    pattern: "admin /{ Action = Index}/{ id?}",
-    defaults: new {controller = "admin"});
+    name: "categoriaFiltro",
+    pattern: "Lanche /{ action}/{categoria?}",
+    defaults: new { Controller = "Lanche", action = "List" });
 
 app.MapControllerRoute(
     name: "default",
