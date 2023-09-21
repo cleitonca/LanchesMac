@@ -14,13 +14,18 @@ namespace LanchesMac.Controllers
             _lancheRepository = lancheRepository;
         }
 
+        public IActionResult Index()
+        {
+            return View();
+        }
+
         public IActionResult List(string categoria)
         {
             IEnumerable<Lanche> lanches;
 
             string categoriaAtual = string.Empty;
-            
-            if(string.IsNullOrEmpty(categoria))
+
+            if (string.IsNullOrEmpty(categoria))
             {
                 lanches = _lancheRepository.Lanches.OrderBy(l => l.Id);
                 categoriaAtual = "Todos os lanches";
@@ -53,9 +58,12 @@ namespace LanchesMac.Controllers
 
         }
 
-        public IActionResult Index()
+        public IActionResult Details(int LancheId)
         {
-            return View();
+            var lanches = _lancheRepository.Lanches.FirstOrDefault(l => l.Id == LancheId);
+
+            return View(lanches);
         }
+
     }
 }
