@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LanchesMac.Models
@@ -17,7 +15,7 @@ namespace LanchesMac.Models
         [StringLength(50)]
         public string Sobrenome { get; set; }
 
-        [Required(ErrorMessage = "Informe o seu endereco")]
+        [Required(ErrorMessage = "Informe o seu endereço")]
         [StringLength(100)]
         [Display(Name = "Endereço")]
         public string Endereco1 { get; set; }
@@ -25,6 +23,11 @@ namespace LanchesMac.Models
         [StringLength(100)]
         [Display(Name = "Complemento")]
         public string Endereco2 { get; set; }
+
+        [Required(ErrorMessage = "Informe o seu CEP")]
+        [Display(Name = "CEP")]
+        [StringLength(10, MinimumLength = 8)]
+        public string Cep { get; set; }
 
         [StringLength(10)]
         public string Estado { get; set; }
@@ -67,4 +70,3 @@ namespace LanchesMac.Models
 
     }
 }
-  

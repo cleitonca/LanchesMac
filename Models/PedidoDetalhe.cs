@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LanchesMac.Models
 {
@@ -14,7 +13,6 @@ namespace LanchesMac.Models
         public decimal Preco { get; set; }
 
         public virtual Lanche Lanche { get; set; }
-
         public virtual Pedido Pedido { get; set; }
     }
 }

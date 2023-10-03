@@ -25,7 +25,6 @@ namespace LanchesMac.Controllers
             return View(homeViewModel);
         }
 
-
-       
+        
     }
 }
