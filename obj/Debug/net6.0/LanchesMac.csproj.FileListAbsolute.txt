@@ -11,6 +11,9 @@ D:\projetos\LanchesMac\bin\Debug\net6.0\Azure.Identity.dll
 D:\projetos\LanchesMac\bin\Debug\net6.0\Humanizer.dll
 D:\projetos\LanchesMac\bin\Debug\net6.0\MessagePack.dll
 D:\projetos\LanchesMac\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.Build.dll
@@ -38,6 +41,8 @@ D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstr
 D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\projetos\LanchesMac\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
